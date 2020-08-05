@@ -223,7 +223,7 @@ export default class CometCtrl {
         } else {
           time_constraints['timestamp'] = {'$lte': info.dateTo}
         }
-        timeSort = -1;
+        timeSort = 1;
       }
       let countQueries = [];
       if (info.count) {
